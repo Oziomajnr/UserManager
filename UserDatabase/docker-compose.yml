@@ -1,0 +1,14 @@
+version: "2"
+services:
+  web:
+    build: .
+    ports:
+      - "3000:3000"
+    links:
+      - ozioma@localhost:27017
+  mongo:
+    image: mongo
+    volumes:
+      - /data/mongodb/db:ozioma@localhost:27017/userdatabaseName
+    ports:
+      - "27017:27017"
