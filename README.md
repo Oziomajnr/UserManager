@@ -32,12 +32,12 @@ Note: running startup.sh would not work, as it requires docker to be installed n
 ###### Database
 * The application relies on the existence of a User database running on MONGO DB with a collecttion named ```user```
 the structure of the data in the userdatabase is as follows.
-{
+```{
   "_id": "59071791b0lkscm2325794",
   "name": "John Doe",
   "email": "john.doe@gmail.com",
   "password": "johndoe",
-}
+}```
 
 ### Installation
 * Start up your terminal (or Command Prompt on Windows OS).
