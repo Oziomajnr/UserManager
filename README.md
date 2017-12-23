@@ -38,7 +38,6 @@ the structure of the data in the userdatabase is as follows.
   "name": "John Doe",
   "email": "john.doe@gmail.com",
   "password": "johndoe",
-  "__v": 0
 }
 ```
 
