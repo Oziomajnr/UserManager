@@ -39,6 +39,7 @@ the structure of the data in the userdatabase is as follows.
   "password": "johndoe",
 }```
 
+
 ### Installation
 * Start up your terminal (or Command Prompt on Windows OS).
 * Ensure that you've `node` installed on your PC.
